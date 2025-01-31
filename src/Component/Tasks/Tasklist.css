@@ -1,0 +1,47 @@
+.tasks_panel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  margin: auto;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  background-color: #f8f9fa; /* Light gray background */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Padding for content */
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.card-title {
+  color: #343a40; /* Dark gray for title */
+  font-weight: bold;
+}
+
+.card-title,
+.card-text {
+  text-align: left; /* Ensure text in title and description is aligned to the left */
+}
+
+.card-text {
+  color: #6c757d; /* Muted text color */
+}
+
+button {
+  border: none;
+  background-color: rgb(97, 97, 126);
+  padding: 4px 8px;
+  color: white;
+  border-radius: 5px;
+}
+i {
+  cursor: pointer;
+}
